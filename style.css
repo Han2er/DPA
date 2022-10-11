@@ -65,6 +65,7 @@ nav ul {
   padding: 0 20px;
 }
 .btn {
+  display: block;
   text-decoration: none;
   color: white;
   font-size: 24px;
@@ -74,6 +75,7 @@ nav ul {
 .btn:hover {
   color: var(--hover-color);
   text-shadow: 0 0 15px blue;
+  transform: translateY(-3px);
 }
 
 /* მაინი */
@@ -118,6 +120,9 @@ h1 {
   margin-top: 30px;
 
   background: var(--gradient-color);
+}
+.more:hover {
+  box-shadow: 0 0 5px;
 }
 
 /* ფუტერი */
