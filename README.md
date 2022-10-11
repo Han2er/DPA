@@ -1,3 +1,3 @@
 # Design and Print Academi
 
-[Landing page](google.com)
+[Landing page](https://han2er.github.io/DPA/)
