@@ -19,17 +19,28 @@
     <!-- --- -->
     <header>
         <img src="./src/icons/DPA-logo-white.svg" alt="logo" height="50px">
+        <div class="burger">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
     </header>
     <nav class="nav-wraper">
         <ul>
-            <li><a class="btn" href="">ჩვენს შესახებ</a></li>
             <li><a class="btn" href="">სიახლეები</a></li>
-            <li><a class="btn" href="">კურსები</a></li>
-            <li><a class="btn" href="">ლექტორები</a></li>
+            <li><a class="btn" href="">კურსები</a>
+                <div class="dropdown-content">
+                    <a class="btn" href="">მასტერკლასები</a>
+                    <a class="btn" href="">ლექტორები</a>
+                </div>
+            </li>
             <li><a class="btn" href="">პარტნიორი კომპანიები</a></li>
-            <li><a class="btn" href="">მასტერკლასები</a></li>
             <li><a class="btn" href="">სტატიები</a></li>
-            <li><a class="btn" href="">კონტაქტი</a></li>
+            <li><a class="btn" href="">კონტაქტი</a>
+                <div class="dropdown-content">
+                    <a class="btn" href="">ჩვენს შესახებ</a>
+                </div>
+            </li>
         </ul>
     </nav>
     <main>
@@ -37,8 +48,7 @@
             <form action="">
                 <input type="text" name="search" id="search" placeholder="ძებნა">
             </form>
-            <iframe width="740" height="470" src="https://www.youtube.com/embed/S03T47hapAc"
-                title="YouTube video player" frameborder="0"
+            <iframe src="https://www.youtube.com/embed/S03T47hapAc" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </aside>
